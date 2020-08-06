@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Nova Mensagem</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+
+<body>
+    <h1>Nova Mensagem</h1>
+    <form action="/nanoblog/insere" method="post">
+        <label for="Titulo">Título:</label>
+        <input type="text" id="titulo" name="titulo"><br><br>
+        <label for="mensagem">Mensagem:</label>
+        <input type="text" id="mensagem" name="mensagem"><br><br>
+        <p><input type="submit" value="Enviar" /> <input type="reset" value="Limpar" /></p>
+    </form>
+    <a href="/nanoblog/lista"><button>Todas as mensagens</button></a>
+
+</body>
+
+</html>
